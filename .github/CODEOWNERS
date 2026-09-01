@@ -5,18 +5,18 @@
 # the repo. Unless a later match takes precedence,
 # @global-owner1 and @global-owner2 will be requested for
 # review when someone opens a pull request.
-* @justusschock @vivequeramji @tchaton @lantiga
+* @justusschock @tchaton @vivequeramji
 
 # owners
-/.github/CODEOWNERS   @williamFalcon
+/.github/CODEOWNERS   @williamFalcon @justusschock
 # main
-/README.md            @lantiga @williamFalcon
+/README.md            @williamFalcon @justusschock
 # installation
-/setup.py             @justusschock @lantiga
+/setup.py             @justusschock @vivequeramji
 
 # Base API
-/src/torchmetrics/metric.py        @SkafteNicki @justusschock @lantiga
-/src/torchmetrics/collections.py   @SkafteNicki @justusschock
+/src/torchmetrics/metric.py        @SkafteNicki @justusschock @vivequeramji
+/src/torchmetrics/collections.py   @SkafteNicki @justusschock @vivequeramji
 
 # CI/CD
 /.github/workflows/   @justusschock @ethanwharris
